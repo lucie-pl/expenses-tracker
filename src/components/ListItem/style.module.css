@@ -1,0 +1,12 @@
+.price {
+  text-align: right;
+  font-weight: bold;
+  font-family: Lilita One;
+  color: rgba(255, 254, 254, 0.7);
+}
+
+.name {
+  text-transform: capitalize;
+  font-family: Lilita One;
+  color: rgba(255, 254, 254, 0.7);
+}
