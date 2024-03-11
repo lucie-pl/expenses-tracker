@@ -1,5 +1,5 @@
 import s from './style.module.css';
-import { deleteListItem } from 'store/expense/expense-slice';
+// import { deleteListItem } from 'store/expense/expense-slice';
 
 export function ListItem({ item }) {
   return (
