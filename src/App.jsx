@@ -8,8 +8,6 @@ import { ExpenseTotal } from 'containers/ExpenseTotal/ExpenseTotal';
 import { ClearExpenses } from 'components/ClearExpenses/ClearExpenses';
 
 export function App() {
-  //useSelector is a hook from React-Redux, a function access data from the store
-  //First parameter is access the whole store, second parameter is whatwe want to access in the store
   const expenseList = useSelector((store) => store.EXPENSE.expenseList);
 
   return (
@@ -31,9 +29,6 @@ export function App() {
           <div className={`col-12 ${s.expense_total}`}>
             <ExpenseTotal />
           </div>
-          {/* <div className={`col- ${s.clear}`}>
-            <ClearExpenses />
-          </div> */}
         </div>
       </div>
     </div>

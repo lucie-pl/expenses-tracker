@@ -1,5 +1,4 @@
 import { ListItem } from '../ListItem/ListItem';
-import s from './style.module.css';
 
 export function List({ items }) {
   return (

@@ -17,7 +17,7 @@ const persistConfig = {
   key: 'root',
   version: 1,
   storage,
-  // if there are slice we don't want to persist and other we don't, we can add
+  // if there are slice we want to persist and other we don't, we can add
   // the one we want to persit in a whitelist: ['EXPENSE']
 };
 

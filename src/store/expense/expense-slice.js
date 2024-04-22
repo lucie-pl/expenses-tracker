@@ -26,7 +26,6 @@ export const expenseSlice = createSlice({
   },
 });
 
-// const addExpense = expenseSlice.actions.addExpense;
 // To add all our expenses
 const { addExpense, setIncome, deleteListItem } = expenseSlice.actions;
 
